@@ -1,0 +1,12 @@
+Copy your code to a Windows machine
+Install Python on Windows
+Open a command prompt and run:
+Apply to build_info.t...
+Run
+
+python -m venv venv
+venv\Scripts\activate
+pip install pyinstaller PyPDF2
+pyinstaller pdf_extractor.spec
+
+The executable will be created in the dist directory and will include your icon.

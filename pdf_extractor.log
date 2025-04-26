@@ -1,0 +1,25 @@
+2025-04-26 20:07:30,192 - INFO - PDF directory selected: /Users/tomstelzer/Documents/Code/tmp
+2025-04-26 20:07:41,369 - INFO - Output ZIP file selected: /Users/tomstelzer/Documents/Code/tmp/test.zip
+2025-04-26 20:07:42,950 - INFO - Starting extraction: Directory=/Users/tomstelzer/Documents/Code/tmp, Output=/Users/tomstelzer/Documents/Code/tmp/test.zip, Pages=[2]
+2025-04-26 20:07:42,950 - INFO - Processing file: /Users/tomstelzer/Documents/Code/tmp/Buchklub_v2.pdf
+2025-04-26 20:07:48,024 - ERROR - Extraction failed: seek
+2025-04-26 20:09:03,504 - INFO - PDF directory selected: /Users/tomstelzer/Documents/Code/tmp
+2025-04-26 20:09:11,744 - INFO - Output ZIP file selected: /Users/tomstelzer/Documents/Code/tmp/test.zip
+2025-04-26 20:09:13,040 - INFO - Starting extraction: Directory=/Users/tomstelzer/Documents/Code/tmp, Output=/Users/tomstelzer/Documents/Code/tmp/test.zip, Pages=[2]
+2025-04-26 20:09:13,041 - INFO - Processing file: /Users/tomstelzer/Documents/Code/tmp/Buchklub_v2.pdf
+2025-04-26 20:09:13,049 - INFO - Processing file: /Users/tomstelzer/Documents/Code/tmp/ASU 2025.pdf
+2025-04-26 20:09:16,014 - INFO - Extraction completed successfully.
+2025-04-26 20:10:13,844 - INFO - PDF directory selected: /Users/tomstelzer/Documents/Code/tmp
+2025-04-26 20:10:29,911 - INFO - Output ZIP file selected: /Users/tomstelzer/Documents/Code/tmp/test.zip
+2025-04-26 20:10:30,789 - INFO - Starting extraction: Directory=/Users/tomstelzer/Documents/Code/tmp, Output=/Users/tomstelzer/Documents/Code/tmp/test.zip, Pages=[2, 3]
+2025-04-26 20:10:30,790 - INFO - Processing file: /Users/tomstelzer/Documents/Code/tmp/Buchklub_v2.pdf
+2025-04-26 20:10:30,798 - INFO - Processing file: /Users/tomstelzer/Documents/Code/tmp/ASU 2025.pdf
+2025-04-26 20:10:30,799 - WARNING - Page 3 out of range for file ASU 2025.pdf
+2025-04-26 20:10:32,651 - INFO - Extraction completed successfully.
+2025-04-26 20:18:15,902 - INFO - PDF directory selected: /Users/tomstelzer/Documents/Code/tmp
+2025-04-26 20:18:48,034 - INFO - Output ZIP file selected: /Users/tomstelzer/Documents/Code/tmp/test.zip
+2025-04-26 20:18:48,962 - INFO - Starting extraction: Directory=/Users/tomstelzer/Documents/Code/tmp, Output=/Users/tomstelzer/Documents/Code/tmp/test.zip, Pages=[5]
+2025-04-26 20:18:48,963 - INFO - Processing file: /Users/tomstelzer/Documents/Code/tmp/Buchklub_v2.pdf
+2025-04-26 20:18:48,971 - INFO - Processing file: /Users/tomstelzer/Documents/Code/tmp/ASU 2025.pdf
+2025-04-26 20:18:48,972 - WARNING - Page 5 out of range for file ASU 2025.pdf
+2025-04-26 20:18:51,141 - INFO - Extraction completed successfully.
