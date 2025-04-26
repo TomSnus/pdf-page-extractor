@@ -78,12 +78,15 @@ Die ausführbare Datei wird im `dist`-Verzeichnis erstellt.
   - Überprüfen Sie die Schreibrechte für den Ausgabeordner
 
 ## Programmstruktur
-pdf-page-extractor/
+ ```
+ pdf-page-extractor/
 ├── pdf_extractor.py # Hauptanwendungsdatei
 ├── pdf_extractor.spec # PyInstaller-Spezifikation
 ├── pdf_extractor.ico # Anwendungssymbol
 ├── README.md # Diese Datei
 └── pdf_extractor.log # Protokolldatei (wird beim Ausführen erstellt)
+   ```
+
 
 ## Lizenz
 
