@@ -20,16 +20,25 @@ class HelpWindow:
         self.help_window.geometry("600x400")
         self.help_window.resizable(True, True)
         manual_text = (
-            "PDF Page Extractor - User Manual\n\n"
-            "1. Select the PDF directory using the 'Browse' button.\n"
-            "2. Enter the page numbers to extract (comma-separated, e.g., 1,2,3).\n"
-            "3. Choose the output ZIP file location using the 'Browse' button.\n"
-            "4. Click 'Start Extraction' to begin.\n\n"
-            "Troubleshooting:\n"
-            "- Ensure all fields are filled.\n"
-            "- Page numbers must be valid integers.\n"
-            "- Check the log file for errors."
-        )
+    "PDF Seitenextraktor - Hilfe\n\n"
+    "Mit diesem Programm können Sie bestimmte Seiten aus mehreren PDF-Dateien extrahieren und\n"
+    "die extrahierten Seiten in einer ZIP-Datei zusammenfassen.\n\n"
+    "Verwendung:\n"
+    "1. Wählen Sie das Verzeichnis aus, das die PDF-Dateien enthält (Button 'Browse' neben 'PDF Directory').\n"
+    "2. Geben Sie die gewünschten Seitenzahlen ein (z.B. 2,3). Seitenzahlen durch Kommas trennen.\n"
+    "   Hinweis: Die Nummerierung beginnt bei 1.\n"
+    "3. Wählen Sie den Speicherort für die ZIP-Datei (Button 'Browse' neben 'Output ZIP').\n"
+    "4. Klicken Sie auf 'Start Extraction', um die Seiten zu extrahieren und in eine ZIP-Datei zu speichern.\n\n"
+    "Hinweise:\n"
+    "- Es werden alle PDF-Dateien im ausgewählten Ordner verarbeitet.\n"
+    "- Stellen Sie sicher, dass die angegebenen Seiten in den PDF-Dateien existieren.\n"
+    "- Die extrahierten Seiten erhalten den Dateinamen 'extracted_<Originaldateiname>.pdf' innerhalb der ZIP-Datei.\n\n"
+    "Fehlerbehebung:\n"
+    "- Überprüfen Sie die Protokolldatei 'pdf_extractor.log' bei Problemen.\n"
+    "- Achten Sie darauf, dass die PDF-Dateien nicht von anderen Programmen geöffnet sind.\n\n"
+    "Viel Erfolg beim Extrahieren!"
+)
+
         text = tk.Text(self.help_window, wrap=tk.WORD, font=("Segoe UI", 11))
         text.insert(tk.END, manual_text)
         text.config(state=tk.DISABLED)
